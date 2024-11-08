@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.ProviderInfo;
 import android.content.res.Resources;
-import android.test.AndroidTestCase;
 import android.test.IsolatedContext;
 import android.test.RenamingDelegatingContext;
 import android.test.mock.MockContentResolver;
@@ -18,7 +17,7 @@ import com.marianhello.bgloc.test.TestConstants;
  * https://stackoverflow.com/a/5281044
  *
  */
-public class LocationProviderTestCase extends AndroidTestCase {
+public class LocationProviderTestCase {
     Class<LocationContentProvider> mProviderClass;
     String mProviderAuthority;
 

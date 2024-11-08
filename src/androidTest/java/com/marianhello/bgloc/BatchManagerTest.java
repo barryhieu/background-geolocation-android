@@ -2,9 +2,6 @@ package com.marianhello.bgloc;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
-import android.support.test.filters.SmallTest;
 import android.util.JsonReader;
 import android.util.JsonToken;
 
@@ -35,6 +32,10 @@ import java.util.HashMap;
 import java.util.List;
 
 import static com.marianhello.bgloc.data.sqlite.SQLiteLocationContract.LocationEntry.SQL_DROP_LOCATION_TABLE;
+
+import androidx.test.InstrumentationRegistry;
+import androidx.test.filters.SmallTest;
+import androidx.test.runner.AndroidJUnit4;
 
 /**
  * Created by finch on 22/07/16.

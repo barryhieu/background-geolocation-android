@@ -1,5 +1,7 @@
 package com.marianhello.bgloc;
 
+import static androidx.test.InstrumentationRegistry.getContext;
+
 import android.database.sqlite.SQLiteDatabase;
 import android.location.Location;
 
@@ -16,7 +18,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-import static android.support.test.InstrumentationRegistry.getContext;
 import static com.marianhello.bgloc.data.sqlite.SQLiteLocationContract.LocationEntry.SQL_DROP_LOCATION_TABLE;
 import static junit.framework.Assert.assertEquals;
 

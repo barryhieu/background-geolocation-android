@@ -236,8 +236,8 @@ public class DistanceFilterLocationProvider extends AbstractLocationProvider imp
      * Returns the most accurate and timely previously detected location.
      * Where the last result is beyond the specified maximum distance or
      * latency a one-off location update is returned via the {@link LocationListener}
-     * specified in {@link setChangedLocationListener}.
-     * @param minTime Minimum time required between location updates.
+     * specified in {@link "setChangedLocationListener"}.
+     * @param "minTime" Minimum time required between location updates.
      * @return The most accurate and / or timely previously detected location.
      */
     public Location getLastBestLocation() {
