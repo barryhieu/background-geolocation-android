@@ -9,12 +9,7 @@ def projDependencies = [
     [configuration: "androidTestImplementation", dependency: androidLibs.supportAnnotations],
     [configuration: "androidTestImplementation", dependency: testLibs.testRunner],
     [configuration: "androidTestImplementation", dependency: testLibs.testRules],
-    [configuration: "testImplementation", dependency: testLibs.testRunner],
-    [configuration: "testImplementation", dependency: testLibs.testRules],
-    [configuration: "testImplementation", dependency: testLibs.junit],
-    [configuration: "testImplementation", dependency: testLibs.json],
-    [configuration: "testImplementation", dependency: testLibs.robolectric],
-    [configuration: "testImplementation", dependency: testLibs.mockitoCore],
+    
     [configuration: "implementation", dependency: androidLibs.playServicesLocation],
     [configuration: "implementation", dependency: androidLibs.supportCompat],
     [configuration: "implementation", dependency: androidLibs.appcompat],
