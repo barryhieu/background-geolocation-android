@@ -119,7 +119,7 @@ ext {
         supportCompat: [group: 'com.android.support', name: 'support-compat', version: getSupportLibVersion()],
         appcompat: [group: 'com.android.support', name: 'appcompat-v7', version: getSupportLibVersion()],
         playServicesLocation: [group: 'com.google.android.gms', name: 'play-services-location', version: getPlayServicesVersion()],
-        testCore: [group: 'androidx.test', name: 'core', version: '1.0.0'],
+        testCore: [group: 'androidx.test', name: 'core', version: '1.4.0'],
         testRunner: [group: 'androidx.test', name: 'runner', version: SUPPORTX_TEST_VERSION],
         testRules: [group: 'androidx.test', name: 'rules', version: SUPPORTX_TEST_VERSION],
     ]
